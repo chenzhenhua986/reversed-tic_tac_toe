@@ -16,8 +16,8 @@ static const float n_reward = -1.0;
 
 std::vector<float> gen_rand(){
     std::vector<float> r;
-    r.push_back(rand() % 3);
-    r.push_back(rand() % 3);
+    r.push_back(rand() % b_size);
+    r.push_back(rand() % b_size);
     return r;
 }
 
